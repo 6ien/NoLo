@@ -67,7 +67,7 @@ local function createOptionHolder(holderTitle, parent, parentTable, subHolder)
 		Size = UDim2.new(0, 230, 0, size),
 		BackgroundTransparency = 1,
 		Image = "rbxassetid://3570695787",
-		ImageColor3 = Color3.fromRGB(252, 186, 3),
+		ImageColor3 = Color3.fromRGB(214, 160, 9),
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(100, 100, 100, 100),
 		SliceScale = 0.04,
@@ -1042,7 +1042,7 @@ local function createColorPickerWindow(option)
 		Position = UDim2.new(1 - hue, 0, 0, 0),
 		Size = UDim2.new(0, 2, 1, 0),
 		BackgroundTransparency = 1,
-		BackgroundColor3 = Color3.fromRGB(30, 30, 30),
+		BackgroundColor3 = Color3.fromRGB(255, 188, 0),
 		BorderColor3 = Color3.fromRGB(255, 255, 255),
 		Parent = option.hue
 	})
