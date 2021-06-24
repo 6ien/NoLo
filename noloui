@@ -92,7 +92,7 @@ local function createOptionHolder(holderTitle, parent, parentTable, subHolder)
 	local title = library:Create("TextLabel", {
 		Size = UDim2.new(1, 0, 0, size),
 		BackgroundTransparency = subHolder and 0 or 1,
-		BackgroundColor3 = Color3.fromRGB(10, 10, 10),
+		BackgroundColor3 = Color3.fromRGB(255, 188, 0),
 		BorderSizePixel = 0,
 		Text = holderTitle,
 		TextSize = subHolder and 16 or 17,
